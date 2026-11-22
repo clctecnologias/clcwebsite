@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: var(--font-jakarta), sans-serif;
+    background-color: #ffffff;
+    color: #09090b;
+    overflow-x: hidden;
+  }
+}
+
+.nav-pill-shadow {
+  box-shadow: 0 12px 35px -8px rgba(255, 30, 122, 0.14),
+    0 4px 16px -4px rgba(9, 9, 11, 0.05);
+}
+
+.pink-gradient-btn {
+  background: linear-gradient(135deg, #d6005c 0%, #ff1e7a 55%, #ff5ca0 100%);
+  box-shadow: 0 10px 24px -6px rgba(255, 30, 122, 0.48);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pink-gradient-btn:hover {
+  box-shadow: 0 12px 36px -6px rgba(255, 30, 122, 0.6);
+}
+
+.hero-text-gradient {
+  background: linear-gradient(90deg, #ff1e7a 0%, #ff4d94 50%, #ff7ab3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-card-top {
+  background: radial-gradient(circle at 80% 15%, #ff2e86 0%, #be0052 55%, #12090e 100%);
+}
+
+.service-card-top-alt {
+  background: radial-gradient(circle at 20% 20%, #ff4593 0%, #9e0043 60%, #09090b 100%);
+}
